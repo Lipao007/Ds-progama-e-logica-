@@ -3,11 +3,10 @@ Algoritmo "Registro"
 // Autor(a)    : Fellipe Batista
 // Data atual  : 21/03/2023
 Var
-registra :caractere
-senhaNova :caractere
-login :caractere
-senha :caractere
-
+registra , senhaNova , login , senha:caractere
+opcaop:inteiro
+valor:real
+dinheiro:real
 Inicio
 
 
@@ -40,7 +39,7 @@ leia(login)
  escreval("")
  limpatela
  se (senha=senhaNova) entao
- escreval("Senha e login correto , Logado com sucesso")
+ escreval("Senha e login correto , Logado com sucesso:")
  senao
  escreval("Senha  incorreta , repita a senha")
  escreval("")
@@ -48,4 +47,24 @@ leia(login)
  fimse
  ate (senha = senhaNova)
 
-fimalgoritmo
+ limpatela
+
+ dinheiro <- 2200
+ repita
+ escreval("Digite 1 para sacar.")
+ leia(opcaop)
+ se(opcaop = 1)entao
+ escreval("Digite seu valor:")
+ leia(valor)
+ fimse
+ ate (opcaop = 1)
+
+ limpatela
+
+  se(valor <=2200)entao
+  escreval("O valor de: R$" , valor , " séra sacado")
+  senao
+  escreval("Você não possue esse valor , seu saldo é de: R$" , dinheiro  )
+  fimse
+
+Fimalgoritmo
