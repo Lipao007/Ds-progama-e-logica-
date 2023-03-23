@@ -1,5 +1,5 @@
 Algoritmo "Registro"
-// Descrição   : Soma nota e da a média
+// DescriÃ§Ã£o   : Soma nota e da a mÃ©dia
 // Autor(a)    : Fellipe Batista
 // Data atual  : 21/03/2023
 Var
@@ -23,7 +23,7 @@ repita
 
 escreval("Digite seu nome para Login:")
 leia(login)
-
+ limpatela
  se (login = registra) entao
  escreval("Login correto.")
  escreval("")
@@ -38,13 +38,13 @@ leia(login)
  escrevaL("Digite sua senha:")
  leia(senha)
  escreval("")
- escreval("")
+ limpatela
  se (senha=senhaNova) entao
  escreval("Senha e login correto , Logado com sucesso")
  senao
  escreval("Senha  incorreta , repita a senha")
  escreval("")
- escreval("")
+
  fimse
  ate (senha = senhaNova)
 
