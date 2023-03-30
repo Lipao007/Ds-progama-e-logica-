@@ -9,7 +9,7 @@ Inicio
 
    Se (quantidade >= 12) Entao
       preco <- quantidade * 1.00
-   Senão
+   Senao
       preco <- quantidade * 1.30
    FimSe
 
