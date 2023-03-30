@@ -7,7 +7,7 @@ Inicio
    Escreva("Quantas maçã você deseja comprar: ")
      Leia(quantidade)
 
-   Se (quantidade >= 12) Então
+   Se (quantidade >= 12) Entao
       preco <- quantidade * 1.00
    Senão
       preco <- quantidade * 1.30
