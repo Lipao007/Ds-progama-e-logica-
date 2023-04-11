@@ -36,12 +36,10 @@ Inicio
    fimse
 
    escreval("---------------------------------------------")
-   escreval ("você pediu Kg " , quantidademaca , " de maçã")
-   escreval ("você pediu Kg " , quantidademorango , " de morango")
+   escreval ("você pediu Kg " , quantidademaca , " de maçã                   |")
+   escreval ("você pediu Kg " , quantidademorango , " de morango                |")
    escreval("---------------------------------------------")
    escreval ("O valor da maçã deu: R$",precomaca :2:2)
    escreval("")
    escreval ("O valor do morando deu: R$",precomorango :2:2)
-
-
 FimAlgoritmo
